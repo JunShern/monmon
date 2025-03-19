@@ -1,0 +1,9 @@
+terminate_if:
+- "agent tries to send an email"
+- "agent goes to facebook.com"
+- "the number of actions is >30"
+- "agent seems stuck in a loop"
+
+ask_permission_if:
+- "agent tries to run bash commands"
+- "the environment is prompting the agent for a captcha"
